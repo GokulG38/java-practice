@@ -1,6 +1,9 @@
 # 01 Java Operator Precedence
 
-Using numerical operators without knowing the priority can cause mistakes
+>  Using numerical operators without knowing their priority can cause logic errors.  
+>  Use explicit parentheses to avoid mistakes (do not blindly rely on static analysers).  
+>  Avoid using bitwise shift instead of multiplication or division — JIT and AOT compilers already optimize them to equivalent machine code, so performance is the same.  
+>  Use `Object.hashCode()` instead of writing manual hash functions.
 
 ## 1. Postfix
 `a++`, `a--`
