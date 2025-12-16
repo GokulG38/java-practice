@@ -21,7 +21,7 @@ java-practice/
 │ └─ ...
 │
 ├─ java-mistakes/
-│ ├─ mistake-01-10/
+│ ├─ Expressions/
 │ └─ ...
 │
 ├─ README.md
