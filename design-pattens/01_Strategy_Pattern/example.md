@@ -1,6 +1,6 @@
 # Strategy Pattern Example
 
-## Things Needed
+## Core components
 
 * **Strategy Interface**: Defines the contract for all algorithms (flying, quacking).
 * **Concrete Strategy Classes**: Implement the strategy interface for specific behaviors (`FlyWithWings`, `Quack`).
@@ -84,9 +84,6 @@ public class DuckTest {
 
 ---
 
-## Key Takeaways
 
-* Algorithms are encapsulated into separate strategy classes
-* Behavior can be changed at runtime using composition
 
 

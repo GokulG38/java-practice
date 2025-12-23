@@ -11,3 +11,8 @@ The **Strategy Pattern** defines a family of algorithms, encapsulates each one, 
 ## Use Case Example
 
 Duck simulator where ducks can have different flying and quacking behaviors. By using strategies, ducks can change their behavior dynamically (Eg: a duck can start flying with wings or stop quacking)
+
+## Notes
+
+* Algorithms are encapsulated into separate strategy classes
+* Behavior can be changed at runtime using composition

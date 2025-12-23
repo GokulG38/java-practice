@@ -11,11 +11,18 @@
 * **Program to interfaces, not implementations**
   Depend on abstractions (interfaces) rather than concrete classes to reduce coupling and increase flexibility.
 
+* **Strive for loosely coupled designs between objects that interact.**
+  Loose coupling minimise interdependency and create flexible OO design
+
 ---
 
 ## Design Pattern
 
 **Strategy Pattern**:
 The **Strategy Pattern** defines a family of algorithms, encapsulates each one, and makes them interchangeable.
+
+**Observer Pattern**:
+The **Observer Pattern** defines a one to many dependency between objects so that when one object changes state, all of its dependents are notified and updated automatically.
+
 
 
